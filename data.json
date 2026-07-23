@@ -1,0 +1,175 @@
+{
+  "coupleSettings": {
+    "partnerA": "Dilan",
+    "partnerB": "Mayra",
+    "weddingDate": "2027-11-29"
+  },
+  "citas": [],
+  "boda": [
+    {
+      "id": "sec-1",
+      "name": "Vestido & Traje",
+      "icon": "scissors",
+      "tasks": [
+        {
+          "id": "t-1",
+          "title": "Prueba inicial del vestido",
+          "completed": true
+        },
+        {
+          "id": "t-2",
+          "title": "Elegir accesorios y zapatos",
+          "completed": false
+        },
+        {
+          "id": "t-3",
+          "title": "Sastrería final del traje",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "sec-2",
+      "name": "Decoración & Flores",
+      "icon": "flower",
+      "tasks": [
+        {
+          "id": "t-4",
+          "title": "Definir paleta de colores",
+          "completed": true
+        },
+        {
+          "id": "t-5",
+          "title": "Encargar el ramo de novia",
+          "completed": false
+        },
+        {
+          "id": "t-6",
+          "title": "Centros de mesa & Altar",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "sec-3",
+      "name": "Invitaciones",
+      "icon": "mail",
+      "tasks": [
+        {
+          "id": "t-7",
+          "title": "Finalizar lista de invitados",
+          "completed": true
+        },
+        {
+          "id": "t-8",
+          "title": "Diseño de la papelería",
+          "completed": true
+        },
+        {
+          "id": "t-9",
+          "title": "Enviar Save the Date",
+          "completed": true
+        },
+        {
+          "id": "t-10",
+          "title": "Impresión de sobres",
+          "completed": true
+        }
+      ]
+    },
+    {
+      "id": "sec-4",
+      "name": "Banquete & Ceremonia",
+      "icon": "utensils",
+      "tasks": [
+        {
+          "id": "t-11",
+          "title": "Reservar el lugar de celebración",
+          "completed": false
+        },
+        {
+          "id": "t-12",
+          "title": "Degustación del menú",
+          "completed": false
+        },
+        {
+          "id": "t-13",
+          "title": "Contratar DJ / Música",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "sec-5",
+      "name": "Trámites",
+      "icon": "file-text",
+      "tasks": [
+        {
+          "id": "t-14",
+          "title": "Reserva de fecha en juzgado / iglesia",
+          "completed": false
+        },
+        {
+          "id": "t-15",
+          "title": "Gestión de documentos oficiales",
+          "completed": false
+        }
+      ]
+    }
+  ],
+  "citasCasados": [
+    {
+      "id": "1",
+      "title": "Viajar a Japón en nuestra luna de miel",
+      "category": "Viajes",
+      "completed": false,
+      "votes": {
+        "Dilan": true,
+        "Sofía": true
+      },
+      "notes": "¡Para comer mucho sushi y pasear por Kioto!"
+    },
+    {
+      "id": "2",
+      "title": "Cocinar una cena de tres tiempos juntos",
+      "category": "Gastronomía",
+      "completed": true,
+      "votes": {
+        "Dilan": true,
+        "Sofía": true
+      },
+      "notes": "Hicimos pasta fresca y tiramisú casero"
+    },
+    {
+      "id": "3",
+      "title": "Hacer un picnic en el parque de nuestra nueva casa",
+      "category": "Aventura",
+      "completed": false,
+      "votes": {
+        "Dilan": false,
+        "Sofía": true
+      },
+      "notes": "Llevar quesos, uvas y vino tinto"
+    },
+    {
+      "id": "4",
+      "title": "Comenzar una tradición de noche de juegos cada viernes",
+      "category": "Hogar",
+      "completed": false,
+      "votes": {
+        "Dilan": true,
+        "Sofía": true
+      },
+      "notes": "Jugar Catán o Monopoly Deal"
+    }
+  ],
+  "peliculas": [
+    {
+      "id": "1",
+      "title": "Horizonte Perdido",
+      "type": "pelicula",
+      "genre": "Acción",
+      "status": "pendiente"
+    }
+  ]
+}

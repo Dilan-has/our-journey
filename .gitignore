@@ -1,0 +1,12 @@
+# Dependencias
+node_modules/
+
+# Directorio de distribución / compilación
+dist/
+
+# Archivos del sistema operativo e IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
