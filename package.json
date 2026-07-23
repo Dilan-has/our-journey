@@ -18,8 +18,8 @@
     "ws": "^8.16.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.0.4",
-    "vite": "^5.1.6"
+    "@vitejs/plugin-vue": "^6.0.8",
+    "vite": "^6.4.3"
   },
   "keywords": [],
   "author": "",
