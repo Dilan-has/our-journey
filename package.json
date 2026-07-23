@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Una aplicación web sincrónica para parejas",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "dev:frontend": "vite",
     "dev:backend": "node server.js",

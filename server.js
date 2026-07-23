@@ -1,8 +1,12 @@
-const express = require('express');
-const http = require('http');
-const WebSocket = require('ws');
-const fs = require('fs');
-const path = require('path');
+import express from 'express';
+import http from 'http';
+import { WebSocketServer } from 'ws';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const app = express();
 app.use(express.json());
@@ -71,7 +75,7 @@ app.get('*', (req, res, next) => {
 const server = http.createServer(app);
 
 // Inicializar servidor de WebSockets
-const wss = new WebSocket.Server({ noServer: true });
+const wss = new WebSocketServer({ noServer: true });
 
 // Escuchar solicitudes de actualización a WebSocket
 server.on('upgrade', (request, socket, head) => {
@@ -89,7 +93,7 @@ server.on('upgrade', (request, socket, head) => {
 function broadcast(data, excludeWs = null) {
   const message = JSON.stringify({ type: 'UPDATE_DATA', payload: data });
   wss.clients.forEach((client) => {
-    if (client.readyState === WebSocket.OPEN && client !== excludeWs) {
+    if (client.readyState === 1 && client !== excludeWs) { // 1 es WebSocket.OPEN
       client.send(message);
     }
   });
